@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 // Correct CORS usage
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://mpholidays.vercel.app/',
   optionsSuccessStatus: 200, // typo fixed: "Succes" → "Success"
 };
 app.use(cors(corsOptions)); // 👈 Apply it here
